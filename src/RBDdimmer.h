@@ -7,6 +7,7 @@
 	#include "avr/RBDmcuAVR.h"
 #elif defined(ARDUINO_ARCH_ESP32)
 	#include "esp32/RBDmcuESP32.h"
+#define ALL_DIMMERS 50
 #elif defined(ARDUINO_ARCH_ESP8266)
 	#include "esp8266/RBDmcuESP8266.h"
 #elif defined(ARDUINO_ARCH_SAMD)
